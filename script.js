@@ -68,7 +68,98 @@ const musicItems = [
     icon: "🥁",
     desc: "Public Spotify playlist for Thaman Telugu songs.",
     uri: "spotify:playlist:0BmhxegXceRemDz3pNQHgD"
-  }
+  },
+  {
+  name: "Karthik Telugu Hits",
+  type: "Singer",
+  icon: "🎙️",
+  desc: "Voice of Karthik – Telugu hit songs sung by playback singer Karthik.",
+  uri: "spotify:album:1VkCzTFLG3e4xmiMlTrYaJ"
+},
+{
+  name: "Sunitha Telugu Songs",
+  type: "Singer",
+  icon: "🎼",
+  desc: "Collection of Telugu songs sung by playback singer Sunitha.",
+  uri: "spotify:playlist:5NIqOOGM6MC6LPwpiGjDMl"
+},
+{
+  name: "Ram Miriyala Hits",
+  type: "Singer",
+  icon: "🔥",
+  desc: "This Is Ram Miriyala – essential Telugu tracks by Ram Miriyala.",
+  uri: "spotify:playlist:37i9dQZF1DZ06evO2Gr21P"
+},
+{
+  name: "Anurag Kulkarni Hits",
+  type: "Singer",
+  icon: "🎧",
+  desc: "This Is Anurag Kulkarni – essential Telugu songs by Anurag Kulkarni.",
+  uri: "spotify:playlist:37i9dQZF1DZ06evO40d2L6"
+},
+{
+  name: "Sid Sriram Telugu Hits",
+  type: "Singer",
+  icon: "🎵",
+  desc: "Sid Sriram Telugu hits playlist curated on Spotify.",
+  uri: "spotify:playlist:37i9dQZF1DXb5Hc9BmAT8t"
+},
+{
+  name: "A. R. Rahman Telugu Hits",
+  type: "Music Director",
+  icon: "🎹",
+  desc: "Rahman Telugu Hits – curated Telugu songs composed by A. R. Rahman.",
+  uri: "spotify:playlist:37i9dQZF1DX695EFn59me7"
+},{
+  name: "K. S. Chithra Telugu Songs",
+  type: "Singer",
+  icon: "🌸",
+  desc: "Chitra Telugu songs collection with classic melodies by K. S. Chithra.",
+  uri: "spotify:playlist:7uxTgNtsgpIssJH5h5UqTT"
+},
+{
+  name: "Shweta Mohan Hits",
+  type: "Singer",
+  icon: "🎤",
+  desc: "This Is Shweta Mohan – essential tracks across Tamil, Telugu and other languages.",
+  uri: "spotify:playlist:37i9dQZF1DZ06evO0Nd8oB"
+},
+{
+  name: "Mani Sharma Top 100 Hits",
+  type: "Music Director",
+  icon: "🎛️",
+  desc: "Mani Sharma Top 100 Telugu hits – all-time favourite compositions.",
+  uri: "spotify:playlist:7HFppAZA5pylLyWV9KOWDV"
+},
+{
+  name: "Adivi Sesh – G2 Songs",
+  type: "Actor",
+  icon: "🕵️",
+  desc: "G2 (Goodachari 2) Telugu songs featuring Adivi Sesh.",
+  uri: "spotify:playlist:7qBzifmpU00eeDfRE73Ims"
+},
+{
+  name: "Vijay Deverakonda – Ranabaali Songs",
+  type: "Actor",
+  icon: "🎬",
+  desc: "Ranabaali Telugu songs featuring Vijay Deverakonda and Rashmika Mandanna.",
+  uri: "spotify:playlist:2yDWmIZyUpZHiL7Yw16WU8"
+},
+{
+  name: "Gopi Sundar",
+  type: "Music Director",
+  icon: "🎶",
+  desc: "Telugu and South Indian film songs composed by Gopi Sundar.",
+  uri: "spotify:album:2YjU5LftLFtIiKDLa7cJ33" 
+},
+{
+  name: "Anup Rubens",
+  type: "Music Director",
+  icon: "🎛️",
+  desc: "Telugu film albums like Hello! and more composed by Anup Rubens.",
+  uri: "spotify:album:4EwzylsrmL1GsCz00aL1ko"  
+},
+
 ];
 
 const musicList = document.getElementById("musicList");
