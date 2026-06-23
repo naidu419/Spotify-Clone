@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telugu Songs Search Player Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <h1>Telugu Songs Search Player Pro</h1>
+      <p>
+        Search by name, filter by category, and open Spotify content for actors, singers, and music directors in one clean player.
+      </p>
+    </div>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search artist, actor, singer, or music director..." />
+        </div>
+
+        <div class="filters">
+          <button class="filter-btn active" data-filter="All">All</button>
+          <button class="filter-btn" data-filter="Actor">Actors</button>
+          <button class="filter-btn" data-filter="Singer">Singers</button>
+          <button class="filter-btn" data-filter="Music Director">Music Directors</button>
+        </div>
+
+        <div class="list" id="musicList"></div>
+        <div class="empty" id="emptyState">No matching result found.</div>
+      </aside>
+
+      <main class="main">
+        <div class="hero-card">
+          <h2 id="title">Jr. NTR Hits</h2>
+          <p id="description">Choose a name from the left. The Spotify player updates automatically.</p>
+
+          <div class="chips">
+            <span class="chip">Better Contrast</span>
+            <span class="chip">Category Filters</span>
+            <span class="chip">Active Highlight</span>
+            <span class="chip">Spotify iFrame API</span>
+          </div>
+        </div>
+
+        <div class="player-card">
+          <div class="player-top">
+            <h3 id="playerHeading">Now Playing: Jr. NTR Hits</h3>
+            <span class="status" id="statusText">Spotify embed ready</span>
+          </div>
+          <div id="embed-iframe"></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
